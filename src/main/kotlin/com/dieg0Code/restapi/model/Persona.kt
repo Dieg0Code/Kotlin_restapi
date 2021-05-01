@@ -1,9 +1,11 @@
-package com.Dieg0Code.restapi.model
+package com.dieg0Code.restapi.model
 
 import java.util.*
 import javax.persistence.*
 
+// Entidad "Persona"
 @Entity
+// Nombre de la tabla en la DB
 @Table(name = "persona")
 data class Persona(
     val dni: Long = 0,
@@ -11,6 +13,7 @@ data class Persona(
     val apellido: String = "",
     val fechaNac: Date? = null
 ) {
+    // Genera ID autoincremental único
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     var id: Long = 0

@@ -1,7 +1,8 @@
-package com.Dieg0Code.restapi.business
+package com.dieg0Code.restapi.business
 
-import com.Dieg0Code.restapi.model.Persona
+import com.dieg0Code.restapi.model.Persona
 
+// Contiene la declaracion de los metodos que se van a utilizar en PersonaBusiness
 interface IPersonaBusiness {
     fun list(): List<Persona>
     fun load(idPersona: Long): Persona

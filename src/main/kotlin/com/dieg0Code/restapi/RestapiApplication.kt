@@ -1,4 +1,4 @@
-package com.Dieg0Code.restapi
+package com.dieg0Code.restapi
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

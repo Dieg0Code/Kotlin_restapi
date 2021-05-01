@@ -1,4 +1,4 @@
-package com.Dieg0Code.restapi
+package com.dieg0Code.restapi
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest

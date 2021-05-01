@@ -1,3 +1,3 @@
-package com.Dieg0Code.restapi.exception
+package com.dieg0Code.restapi.exception
 
 class NotFoundException(message: String?): Exception(message)
