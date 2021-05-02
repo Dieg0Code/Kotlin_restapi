@@ -1,5 +1,6 @@
 package com.dieg0Code.restapi.model
 
+import java.time.LocalDate
 import java.util.*
 import javax.persistence.*
 
@@ -11,7 +12,7 @@ data class Persona(
     val dni: Long = 0,
     val nombre: String = "",
     val apellido: String = "",
-    val fechaNac: Date? = null
+    val fechaNac: LocalDate? = null
 ) {
     // Genera ID autoincremental único
     @Id
